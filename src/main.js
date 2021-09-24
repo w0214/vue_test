@@ -3,6 +3,7 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import 'element-ui/lib/theme-chalk/index.css'
 import {
   Pagination,
   Dialog,
@@ -166,8 +167,6 @@ Vue.prototype.$confirm = MessageBox.confirm;
 Vue.prototype.$prompt = MessageBox.prompt;
 Vue.prototype.$notify = Notification;
 Vue.prototype.$message = Message;
-import 'element-ui/lib/theme-chalk/index.css';
-
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */
